@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
 
-repositories{
+repositories {
     flatDir {
         dirs 'libs'
 
@@ -32,5 +32,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    compile(name:'FFmpegAndroid-0.3.2', ext:'aar')
+    compile(name: 'FFmpegAndroid-0.3.2', ext: 'aar')
 }
